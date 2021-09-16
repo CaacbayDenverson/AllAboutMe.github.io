@@ -1,0 +1,224 @@
+*{
+    margin:0;
+}
+
+.main {
+    background-color: #131313;
+    padding: 8.3rem 0;
+  }
+  
+  .main__container {
+    margin-left:3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+  }
+  
+  .main__content {
+    width: 100%;
+  }
+  
+  .main__content h1 {
+    font-size: 2rem;
+    font-family: Helvetica;
+    background-color: #95E8A3 ;
+    background-image: linear-gradient(to top, #95E8A3  0%, #95E8A3 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  .main__content h3 {
+    font-size: 18px;
+    font-family: Helvetica;
+    background-color: #95E8A3;
+    background-image: linear-gradient(to top, #95E8A3 0%, #95E8A3 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .main__content h2 {
+    font-size: 20px;
+    font-family: Helvetica;
+    color:white;
+  }
+  
+  .main__content p {
+    font-family: Helvetica;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .main__img--container {
+    text-align: center;
+    margin: 10px;
+    height: 500px;
+    width: 200%;
+    padding-left:10%;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    border: 8px #95E8A3 solid;
+  }
+  
+  .main__img--card {
+    border-radius: 50px;
+    margin: 10px;
+    height: 400px;
+    width: 400px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main__img--card img {
+      border-radius: 50%;
+  }
+
+  .like{
+    background: white;
+    width:100%;
+  }
+  .left{
+    height:800px;
+    width: 50%;
+    background: white;
+    float:left;
+  }
+  .left_ui{
+    height:450px;
+    width: 48%;
+    border: 8px #95E8A3 solid;
+    border-radius: 20px;
+    margin-left: 40%;
+    margin-top: 15%;
+    padding:20px;
+  }
+  .left_ui li{
+    font-family: Helvetica;
+    margin-top:30px;
+    padding:10px;
+    font-size:20px;
+  }
+  .left_ui h1{
+    text-align: center;
+    font-family: Helvetica;
+  }
+  .right{
+    height:800px;
+    width: 50%;
+    background: white;
+    float:right;
+  }
+  .right_ui{
+    height:450px;
+    width: 48%;
+    border: 8px #95E8A3 solid;
+    border-radius: 20px;
+    margin-right: 40%;
+    margin-top: 15%;
+    padding:20px;
+  }
+  .right_ui li{
+    font-family: Helvetica;
+    margin-top:30px;
+    padding:10px;
+    font-size:20px;
+  }
+ .right_ui h1{
+    text-align: center;
+    font-family: Helvetica;
+  }
+
+  /*favorite food */
+  .fav{
+    background: #131313;
+    width:100%;
+  }
+  .left_fav{
+    height:800px;
+    width: 50%;
+    background: #131313;
+    float:left;
+  }
+  .left_ui_fav{
+    height:500px;
+    width: 48%;
+    border-radius: 20px;
+    margin-left: 40%;
+    margin-top: 15%;
+    padding:20px;
+  }
+  .left_ui_fav li{
+    font-family: Helvetica;
+    color:white;
+    margin-top:30px;
+    padding:10px;
+    font-size:20px;
+  }
+  .left_ui_fav h1{
+    text-align: center;
+    font-family: Helvetica;
+    color: #95E8A3;
+  }
+  .right_fav{
+    height:800px;
+    width: 50%;
+    background: #131313;
+    float:right;
+  }
+  .right_ui_fav{
+    height:500px;
+    width: 50%;
+    margin-top: 5%;
+  }
+  .right_ui_fav img{
+    height:700px;
+    width:100%;
+  }
+
+  .like1{
+    background: white;
+    width:100%;
+  }
+  .left1{
+    height:800px;
+    width: 100%;
+    background: white;
+    float:left;
+  }
+  .left1_ui{
+    height:680px;
+    width: 80%;
+    border: 8px #95E8A3 solid;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-top: 30px;
+    padding:20px;
+  }
+  .left1_ui li{
+    font-family: Helvetica;
+    margin-top:30px;
+    padding:5px;
+    font-size:20px;
+  }
+  .left1_ui h1{
+    text-align: center;
+    font-family: Helvetica;
+  }
